@@ -1,0 +1,29 @@
+env:
+  - variable: TZ
+    value: "UTC"
+    availability:
+      - RUNTIME
+  - variable: PORT
+    value: "8080"
+    availability:
+      - RUNTIME
+  - variable: HOST
+    value: "0.0.0.0"
+    availability:
+      - RUNTIME
+  - variable: LOG_LEVEL
+    value: "info"
+    availability:
+      - RUNTIME
+  - variable: APP_KEY
+    value: "_aVyAknfVXctLu0A2LVfP6usR4oMzKxG"
+    availability:
+      - RUNTIME
+  - variable: NODE_ENV
+    value: "production"
+    availability:
+      - RUNTIME
+  - variable: SESSION_DRIVER
+    value: "cookie"
+    availability:
+      - RUNTIME
